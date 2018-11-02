@@ -1,0 +1,34 @@
+source 'https://bitbucket.org/flowtoolz/podspecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+inhibit_all_warnings!
+use_frameworks!
+
+platform :tvos, '9.0'
+
+target 'XCodeProjectTVOS' do
+    #pod 'FirebaseAnalytics'
+    pod 'Alamofire', :git => 'https://github.com/Alamofire/Alamofire.git', :commit => 'e50160'#'3cc5b4e'
+    pod 'AlamofireImage', :git => 'https://github.com/Alamofire/AlamofireImage.git', :commit => '22e3c24'#'b02916e'
+    pod 'Flowtoolz', '0.1.1' #, :path=> '../../../FlowtoolzCocoapod'
+    #pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
+    pod 'PureLayout', '3.0.2'
+end
+
+target 'LondonRealTVTopshelf' do
+    pod 'Alamofire', :git => 'https://github.com/Alamofire/Alamofire.git', :commit => 'e50160'#'3cc5b4e'
+    pod 'AlamofireImage', :git => 'https://github.com/Alamofire/AlamofireImage.git', :commit => '22e3c24'#'b02916e'
+    pod 'Flowtoolz', '0.1.1' #, :path=> '../../../FlowtoolzCocoapod'
+end
+
+target 'XCodeProjectTVOSTests' do
+    #pod 'SwiftHamcrest'
+end
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['SWIFT_VERSION'] = '3.0'
+        end
+    end
+end

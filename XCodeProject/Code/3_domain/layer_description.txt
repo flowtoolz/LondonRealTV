@@ -1,0 +1,2 @@
+* represents and acts as the application domain in which the software tool is applied
+* domain model includes only what the user is interested in and understands

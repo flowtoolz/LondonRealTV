@@ -1,0 +1,7 @@
+* general: I identify the youtube and the vimeo video for the same episode by the titles provided on vimeo and youtube
+
+* title starts with guest name followed by " - "
+
+* The guest name is written exactly the same on youtube and vimeo... for example, i had to match "dr. " with "dr " and "VENOM" with "Venom" 
+
+* if I strip the title of the following phrases, i get the exact same string "guest names - episode title" on youtube and vimeo: white spaces, characters like | and -,  "| London Real", "REDUX", "PART 1/2"

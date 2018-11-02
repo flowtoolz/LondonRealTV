@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (4.0.0)
+  - AlamofireImage (3.0.0):
+    - Alamofire (~> 4.0)
+  - Flowtoolz (0.1.1)
+  - PureLayout (3.0.2)
+
+DEPENDENCIES:
+  - Alamofire (from `https://github.com/Alamofire/Alamofire.git`, commit `e50160`)
+  - AlamofireImage (from `https://github.com/Alamofire/AlamofireImage.git`, commit `22e3c24`)
+  - Flowtoolz (= 0.1.1)
+  - PureLayout (= 3.0.2)
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :commit: e50160
+    :git: https://github.com/Alamofire/Alamofire.git
+  AlamofireImage:
+    :commit: 22e3c24
+    :git: https://github.com/Alamofire/AlamofireImage.git
+
+CHECKOUT OPTIONS:
+  Alamofire:
+    :commit: e50160
+    :git: https://github.com/Alamofire/Alamofire.git
+  AlamofireImage:
+    :commit: 22e3c24
+    :git: https://github.com/Alamofire/AlamofireImage.git
+
+SPEC CHECKSUMS:
+  Alamofire: fef59f00388f267e52d9b432aa5d93dc97190f14
+  AlamofireImage: 6594aa1139a67dcd36cde6da79ea4e5b318e60fb
+  Flowtoolz: ede54683646c5c019febd11a32af8447cfad4daa
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+
+PODFILE CHECKSUM: 8108d0c494a35f62498b758cf423d2a98030c5b2
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,4 @@
+* synonyms: interaction layer, presentation layer
+* maps user input to use cases and domain
+* presents domain and use cases to user
+* user interface model includes view model

@@ -1,0 +1,3 @@
+* synonyms: business layer, application layer
+* maps use cases and other application specific actions to domain
+* use cases model = business logic, includes actions
